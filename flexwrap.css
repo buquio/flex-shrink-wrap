@@ -1,0 +1,43 @@
+* { box-sizing: border-box; }
+
+body {
+    margin: 0;
+    background: #2C73D2;
+    color: #fff;
+    text-align: center;
+}
+
+.flex-container {
+    border: 10px solid #F9F871;
+    max-width: 700px;
+    margin: 0 auto;
+    padding: .25em;
+    min-height: 90vh;
+	justify-content: center;
+    align-items: flex-end;
+    align-content: space-between;
+    display: flex;	
+/*  flex-wrap: wrap;*/
+/*-takes the remaining items to the next level*/
+	
+/*	flex-wrap: nowrap;*/
+/*-reduces the item-size and place on 1 line*/
+	
+/*flex-flow: row-reverse wrap;*/
+/*-the reverse of flex-wrap*/
+	
+    align-self: flex-start;
+/*-align all item at the bottom*/
+    }
+
+.big {
+    font-size: 2em;
+}
+
+.flex-item {
+    background: #8BEE86;
+    margin: 25px;
+    padding: 25px;
+    color: #424656;
+}
+

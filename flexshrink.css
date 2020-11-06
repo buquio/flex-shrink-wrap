@@ -1,0 +1,87 @@
+
+/*parent css try others below*/
+* { box-sizing: border-box; }
+
+body {
+    margin: 0;
+    background: #2C73D2;
+    color: #fff;
+    text-align: center;
+}
+
+.flex-container {
+    border: 10px solid #F9F871;
+    width: 80%;
+    margin: 0 auto;
+    padding: .25em;
+	
+/*	min-height: 50vh;*/
+    
+	display: flex;
+		
+/*
+	   display: flex;
+    flex-direction: row;
+*/
+
+/*
+	display: flex;
+    flex-direction: row-reverse;
+*/
+
+/*
+	display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap/wrap;
+*/
+	
+	
+/*
+	display: flex;
+    flex-flow: row-reverse wrap;
+*/
+
+/*
+display: flex;
+    justify-content: center;
+    align-items: flex-end;
+	align-items: baseline;
+	
+*/
+
+
+}
+
+
+.flex-item {
+    background: #8BEE86;
+    margin: .5em;
+    padding: .5em;
+    color: #424656;
+    width: 200px;
+}
+
+.flex-item-1 {
+    background: plum;
+    flex: auto;
+    flex: 1 1 auto;
+}
+
+/*flex: grow shrink basis;*/
+.flex-item-2 {
+    background: gray;
+    flex: grow shrink basis;
+}
+
+/* grow: 1, flex-basis: 0 */
+.flex-item-3 {
+    background: green;
+    flex: 1 0;	
+}
+
+
+/*ailgn*/
+.flex-item-4 {
+    background: plum;
+    align-self: flex-start;
+}
